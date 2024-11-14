@@ -1,0 +1,78 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Battery HTR",
+        "price": 200.00,
+        "imageUrl": "src/assets/image/shop1.jpg",
+        "description": "High-quality battery",
+        "category": "Accessories"
+      },
+      {
+        "id": 2,
+        "name": "Cable FHG-7000",
+        "price": 55.00,
+        "imageUrl": "src/assets/image/shop2.jpg",
+        "description": "Durable USB cable",
+        "category": "Cables"
+      },
+      {
+        "id": 3,
+        "name": "Charger SS-101",
+        "price": 2.00,
+        "originalPrice": 3.00,
+        "imageUrl": "src/assets/image/shop3.jpg",
+        "description": "Fast charging adapter",
+        "category": "Chargers"
+      },
+      {
+        "id": 4,
+        "name": "Earbuds N11",
+        "price": 35.00,
+        "imageUrl": "src/assets/image/shop4.jpg",
+        "description": "Comfortable in-ear earbuds",
+        "category": "Audio"
+      },
+      {
+        "id": 5,
+        "name": "Flash 128GB",
+        "price": 35.00,
+        "imageUrl": "src/assets/image/shop5.jpg",
+        "description": "128GB USB flash drive",
+        "category": "Storage"
+      },
+      {
+        "id": 6,
+        "name": "HDD 3TB",
+        "price": 333.00,
+        "imageUrl": "src/assets/image/shop6.jpg",
+        "description": "3TB external hard drive",
+        "category": "Storage"
+      },
+      {
+        "id": 7,
+        "name": "Headphones BMG300X",
+        "price": 180.00,
+        "imageUrl": "src/assets/image/shop7.jpg",
+        "description": "High-fidelity headphones",
+        "category": "Audio"
+      },
+      {
+        "id": 8,
+        "name": "Headphones LMP55",
+        "price": 277.00,
+        "imageUrl": "src/assets/image/shop8.jpg",
+        "description": "Noise-canceling headphones",
+        "category": "Audio"
+      },
+      {
+        "id": 9,
+        "name": "Headphones NK500",
+        "price": 499.00,
+        "imageUrl": "src/assets/image/shop9.jpg",
+        "description": "Premium quality headphones",
+        "category": "Audio"
+      }
+    ]
+  }
+  

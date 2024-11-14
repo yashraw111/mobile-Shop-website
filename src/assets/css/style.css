@@ -1,0 +1,1044 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica";
+}
+
+body,
+html {
+  height: 100vh;
+  width: 100%;
+}
+:root {
+  --grey-color: #393939;
+}
+
+
+
+.Login-page{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.114)), 
+            url('../image/back3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.Login-page form{
+  background-color: rgba(32, 30, 30, 0.407);
+  border-radius: 10px;
+}
+.Login-page form label{
+  color: white;
+}
+.Login-page form input{
+  background-color: rgba(0, 0, 0, 0.208);
+}
+/* .Login-page form  .form-control::selection{
+  background-color: red;
+} */
+.Login-page form input:focus{
+  background-color: rgba(0, 0, 0, 0.325);
+  /* border: no; */
+  box-shadow: none;
+  border: white;
+  color: white;
+}
+.Login-page form .errors{
+  color: rgb(216, 111, 111);
+}
+
+
+.Login-page form .submit-button{
+  background-color: #003366;
+  border: none;
+}
+.Login-page span{
+  color: #ffffff;
+}
+
+
+/**Sign up section end  */
+
+
+/**signup-form start  */
+
+.signup-form{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.114)), 
+            url('../image/back3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.signup-form form{
+  background-color: rgba(32, 30, 30, 0.407);
+  border-radius: 10px;
+}
+.signup-form form label{
+  color: white;
+}
+.signup-form form input{
+  background-color: rgba(0, 0, 0, 0.208);
+}
+.signup-form form input:focus{
+  background-color: rgba(0, 0, 0, 0.325);
+  color: white;
+}
+
+.signup-form .errors{
+  color: rgb(210, 105, 105);
+
+}
+
+
+.signup-form form .submit-button{
+  background-color: #003366;
+  border: none;
+}
+
+/**signup-form end  */
+
+/**forgot-form  start  */
+
+
+.forgot-form{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.114)), 
+  url('../image/back3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.forgot-form form{
+  background-color: rgba(32, 30, 30, 0.407);
+  border-radius: 10px;
+}
+.forgot-form form label{
+  color: white;
+}
+.forgot-form form input{
+  background-color: rgba(0, 0, 0, 0.208);
+}
+.forgot-form form input:focus{
+  background-color: rgba(0, 0, 0, 0.325);
+  color: white;
+}
+footer h1{
+  color: rgb(245, 243, 243);
+  cursor: pointer;
+}
+
+
+.forgot-form form .submit-button{
+  background-color: #003366;
+  border: none;
+}
+.forgot-form .errors{
+  color: rgb(232, 115, 115);
+}
+
+/**forgot-form  end  */
+
+/** Header section start  */
+
+.top-header {
+  color: var(--grey-color);
+  /* background-color: red; */
+  height: 60px;
+}
+.top-header .icons i {
+  color: var(--grey-color);
+  padding: 0 10px 0 0;
+  font-size: 15px;
+}
+.top-header .times p {
+  /* color: var(--grey-color); */
+  font-size: 15px;
+}
+.top-header .callNow p {
+  /* color: var(--grey-color); */
+  font-size: 15px;
+}
+.bot-header .navbar {
+  /* background-color: red; */
+  height: 80px;
+  /* padding: 00px 0px 30px 0; */
+}
+
+.bot-header img{
+  height: 160px;
+}
+.bot-header .navbar-collapse .nav-link {
+  /* color: red; */
+  /* background-color: red;  */
+  font-size: 17px;
+}
+/* Dropdown hover effect */
+.bot-header .dropdown:hover .dropdown-menu {
+  display: block;
+}
+/* Underline effect on active */
+.nav-link.active {
+  position: relative;
+}
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+}
+.nav-link.Active2 {
+  position: relative;
+}
+.nav-link.Active2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background-color: red;
+  transition: all 0.5s;
+}
+.nav-link.Active2:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+}
+
+.nav-link {
+  color: #333;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.nav-link.active-link {
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-link.active-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: red; /* Change color as needed */
+}
+
+/** Header section end   */
+
+/** Home page start  */
+
+.home-page {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  background: url(/src/assets/image/repairing3.avif);
+  background-position: center;
+  background-size: cover;
+}
+.home-page::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.233);
+  z-index: 1;
+}
+.home-page .details {
+  z-index: 2;
+  position: relative;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.home-page .details h1 {
+  font-size: 55px;
+  letter-spacing: 1.5px;
+  line-height: 65px;
+}
+.home-page .details p {
+  font-size: 14px;
+}
+.home-page .details button {
+  padding: 10px 19px;
+  color: white;
+  background-color: #003366;
+  border: none;
+  transition: all 0.2s;
+}
+.home-page .details button:hover {
+  padding: 10px 19px;
+  color: #003366;
+  background-color: white;
+  border: none;
+}
+
+.ContactUsPage {
+  /* height: ; */
+  width: 100%;
+  position: relative;
+  background: url(/src/assets/image/backService.jpg);
+  background-position: center;
+  background-size: cover;
+  /* background-color: red; */
+}
+.ContactUsPage::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.08);
+  z-index: 1;
+}
+
+.ContactUsPage .container {
+  position: relative;
+  z-index: 2;
+  /* background-color: red; */
+}
+.ContactUsPage .details h5 {
+  font-size: 20px;
+  margin-top: 7px;
+  font-weight: 700;
+  /* transition: ; */
+  text-transform: uppercase;
+}
+.ContactUsPage .details button {
+  background-color: #f87167;
+  margin-top: 7px;
+
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 6px 13px;
+  color: white;
+}
+
+/** Home page end  */
+
+/** Product Card Section  start */
+
+/* body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, white , #ffedb5);
+  } */
+
+/* Basic body styling */
+/* body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, white, #ffedb5);
+} */
+
+/* Hiding the scrollbar */
+
+/* When product card is in view, make it fully visible */
+.outterContainer .container .product-card {
+  opacity: 1;
+}
+
+.more-btn {
+  background-color: transparent;
+  border: 1px solid #333;
+  color: #333;
+  margin-top: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .outterContainer .container {
+    height: 350px;
+    padding: 120px 0;
+  }
+}
+
+/** Product Card Section  end*/
+
+/** OurServices section start  */
+
+.OurServices {
+  /* height: ; */
+  width: 100%;
+  position: relative;
+  background: url(/src/assets/image/backService.jpg);
+  background-position: center;
+  background-size: cover;
+  /* background-color: red; */
+}
+.OurServices::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.634);
+  z-index: 1;
+}
+
+.OurServices .container {
+  position: relative;
+  z-index: 2;
+  /* background-color: red; */
+}
+.OurServices .OurServicesCard img {
+  /* height: 160px; */
+  /* border-radius: 5px 5px 0px 0px ; */
+  width: 100%;
+  background-position: center;
+  transition: transform 0.2s;
+}
+.OurServices .OurServicesCard {
+  /* background-color: red; */
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.OurServicesCard .card-body {
+  /* background-color: red; */
+  transition: 0.2s;
+  border-radius: 1px;
+}
+.OurServicesCard .img-sec {
+  height: 160px;
+  overflow: hidden;
+}
+.OurServices .OurServicesCard p {
+  font-size: 20px;
+  font-weight: 500;
+  transition: transform 0.2s;
+}
+.OurServicesCard:hover img {
+  transform: translateY(-10px); /* Moves image slightly down when hovered */
+}
+.OurServicesCard:hover p {
+  transform: scale(1.1);
+}
+.OurServicesCard:hover .card-body {
+  background-color: #ff675b;
+  color: white;
+}
+
+.OurServices button {
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 20px;
+  margin-top: 40px;
+  background-color: #ff675b;
+  transition: all 0.3s;
+}
+.OurServices button:hover {
+  color: white;
+  /* border: 2px solid #f87167; */
+  border-radius: 2px;
+  /* padding: 10px 20px; */
+  /* margin-top: 40px; */
+  background-color: black;
+}
+/** OurServices section end  */
+
+/** productSectionForHome section start  */
+.ProductSectionHome .horizontal-scroll-container {
+  display: flex;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  padding: 20px; /* Add some padding around the scroll area */
+}
+.horizontal-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.ProductSectionHome .card {
+  min-width: 200px; /* Minimum width for each card */
+  margin-right: 20px; /* Space between cards */
+  background-color: white; /* Card background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  flex: none; /* Prevents cards from shrinking */
+  transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.ProductSectionHome .card img {
+  width: 100%; /* Image will fill the card width */
+  border-radius: 8px 8px 0 0; /* Rounded top corners for the image */
+}
+
+.ProductSectionHome .card-body {
+  padding: 10px; /* Padding inside the card body */
+}
+
+.ProductSectionHome .card:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.ProductSectionHome .product-card {
+  text-align: center;
+  /* border: 1px solid #ddd; */
+  /* width: 500px; */
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  /* height: 500px; */
+}
+
+.ProductSectionHome .product-image {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.ProductSectionHome .product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.ProductSectionHome .product-price {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.ProductSectionHome .add-to-cart-btn {
+  padding: 8px 16px;
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ProductSectionHome .add-to-cart-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/** productSectionForHome section start  */
+
+/** WeRepairs section start  */
+
+
+.WeRepairsUi .icon-container {
+  display: flex;
+}
+.WeRepairsUi .icon-container i {
+  color: #f87167;
+  font-size: 46px;
+  margin-right: 35px;
+}
+.WeRepairsUi .icon-container h5 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+}
+.WeRepairsUi .icon-container p {
+  color: rgba(0, 0, 0, 0.729);
+  line-height: 30px;
+}
+
+/** WeRepairs section end  */
+
+/** Shop section start  */
+.AllProduct .image-Sec {
+  width: 100%;
+  position: relative;
+  background: url(../image/cropped-our-slider-03-1.jpg);
+  background-position: center;
+  /* background-size: cover; */
+}
+.AllProduct .image-Sec::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.103);
+  z-index: 1;
+}
+
+.detail {
+  position: relative;
+  z-index: 2212;
+  color: white;
+
+  padding: 30px 0;
+  /* padding: 30px 0px 30px 30px; */
+}
+.AllProduct .Product {
+  width: 50%;
+}
+
+.AllProduct {
+  padding: 20px 0;
+}
+
+.product-card {
+  text-align: center;
+  /* border: 1px solid #ddd; */
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  /* height: 500px; */
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+  padding: 8px 16px;
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.AllProduct .Categories h5 {
+  border-left: 4px red solid;
+  padding: 8px;
+  font-size: 15px;
+  color: #393939;
+  /* background-color: red; */
+}
+.AllProduct .Categories .AllPR a {
+  text-decoration: none;
+  font-size: 15px;
+
+  margin-top: 10px;
+  color: #003366;
+}
+.AllProduct .cart-sec {
+  width: 100%;
+  /* background-color: red; */
+  height: 550px;
+  /* border: 2px solid red; */
+  box-shadow: 2px 2px 20px rgb(23, 2, 2);
+  overflow: auto;
+
+}
+.AllProduct .cart-sec::-webkit-scrollbar{
+  display: none;
+}
+
+.AllProduct .cart-sec .img-par img {
+  height: 100px;
+  width: 100px;
+  /* background-color: red; */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-details-content {
+  display: flex;
+  align-items: start;
+  gap: 2rem;
+}
+
+.product-details-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-details-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.product-details-price {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #e63946;
+  margin-bottom: 15px;
+}
+
+.product-details-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.product-details-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.add-to-cart-btn,
+.buy-now-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.add-to-cart-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.buy-now-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+.add-to-cart-btn:hover,
+.buy-now-btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .product-details-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product-details-title {
+    text-align: center;
+  }
+}
+
+.SingleProductShow .product-details-content img {
+  height: 300px;
+  margin-top: 20px;
+  width: 352px;
+}
+
+.SingleProductShow .image-Sec {
+  width: 100%;
+  position: relative;
+  background: url(../image/cropped-our-slider-03-1.jpg);
+  background-position: center;
+  /* background-size: cover; */
+}
+.SingleProductShow .image-Sec::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.103);
+  z-index: 1;
+}
+
+.Product-detail {
+  position: relative;
+  z-index: 2212;
+  color: white;
+
+  padding: 30px 0;
+  /* padding: 30px 0px 30px 30px; */
+}
+
+.SingleProductShow .Releted-product img {
+  width: 120px;
+}
+.SingleProductShow .Releted-product button {
+  /* height: 10px; */
+  font-size: 12px;
+
+  /* width: 20px; */
+}
+.SingleProductShow .Releted-product h5 {
+  font-size: 12px;
+}
+.SingleProductShow .Releted-product .product-card p {
+  font-size: 10px;
+}
+
+/** Shop section end  */
+
+/** Service Section start  */
+
+.ServiceSection .image-Sec {
+  width: 100%;
+  position: relative;
+  background: url(../image/cropped-our-slider-03-1.jpg);
+  background-position: center;
+  /* background-size: cover; */
+}
+.ServiceSection .image-Sec::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.103);
+  z-index: 1;
+}
+
+.Services-img-details {
+  position: relative;
+  z-index: 2212;
+  color: white;
+
+  padding: 30px 0;
+  /* padding: 30px 0px 30px 30px; */
+}
+.Services-img-details p {
+  font-size: 12px;
+}
+.ServiceSection .Service-details .col-lg-8 .border-bot {
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
+.ServiceSection .Service-details .col-lg-8 img {
+  /* height: 100%; */
+  width: 100%;
+}
+.ServiceSection .our-services {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  height: 300px;
+}
+.ServiceSection .our-services h3 {
+  color: #003366;
+}
+.ServiceSection .our-services ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.ServiceSection .our-services ul li {
+  text-decoration: underline;
+  text-align: start;
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+/** Service Section end  */
+
+/** footer section start   */
+
+footer {
+  background-color: #003366;
+  color: white;
+}
+footer .logo-part img {
+  /* height: ; */
+  width: 250px;
+}
+footer .details p {
+  font-size: 12px;
+  line-height: 22px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  padding-top: 10px;
+  font-size: 13px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer .contact .address a i {
+  color: #f7a5b1;
+  margin-right: 12px;
+}
+
+footer .contact .social .icons a {
+  color: white;
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+/** footer section end  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100vh;
+  width: 100%;
+}
+:root {
+  --grey-color: #393939;
+}
+
+/** Header section start  */
+
+.top-header {
+  color: var(--grey-color);
+}
+.top-header .icons i {
+  color: var(--grey-color);
+  padding: 0 10px 0 0;
+}
+.top-header .times p {
+  /* color: var(--grey-color); */
+  font-size: 14px;
+}
+.top-header .callNow p {
+  /* color: var(--grey-color); */
+  font-size: 14px;
+}
+/* Dropdown hover effect */
+.bot-header .dropdown:hover .dropdown-menu {
+  display: block;
+}
+/* Underline effect on active */
+.nav-link.active {
+  position: relative;
+}
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+}
+
+/** Header section end   */
+
+/** footer section start   */
+
+footer {
+  background-color: #6287ad;
+  color: white;
+}
+footer .logo-part img {
+  /* height: ; */
+  width: 250px;
+}
+footer .details p {
+  font-size: 12px;
+  line-height: 22px;
+}
+footer .com-menu-part a {
+  color: white;
+  text-decoration: none;
+}
+/** footer section end  */
+
+/** blog start */
+.container .card .metadata {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.container .card .metadata span {
+  display: flex;
+  align-items: center;
+}
+
+.container .card .metadata i {
+  margin-right: 10px;
+  color: #ff6f61;
+}
+.container .card .metadata span {
+  color: #9faec0;
+}
+.container .right .recent-posts img {
+  height: 87px;
+}
+.container .right .recent-posts .post p {
+  margin-left: 20px;
+}
+
+.container .right .recent-posts span {
+  color: #9faec0;
+  font-size: 12px;
+}
+.container .metadata span,
+h5:hover {
+  cursor: pointer;
+  color: #ff6f61;
+}
+.container .metadata span:hover {
+  cursor: pointer;
+  color: #ff6f61;
+}
+.container .right .recent-posts h3 {
+  font-size: 16px;
+}
+.container .col-3 h3 {
+  font-size: 16px;
+}
+
+.container .right input {
+  height: 40px;
+  width: 300px;
+  padding: 10px;
+}
+.social-img img {
+  height: 80px;
+}
+.back {
+  background-color: #ebebeb;
+}
